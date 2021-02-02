@@ -21,3 +21,15 @@
   - Temperatura atual da cidade em graus Celcius;
   - Se está chovendo ou não;
   - Nome do Pokémon seguindo as regras acima.
+## Informações Adicionais
+- Utilizar o Docker durante o desafio será considerado como ponto adicional;[ ] (não é um requisito obrigatório)
+
+- Testes unitários também serão considerados como ponto adicional;[ ] (não é um requisito obrigatório)
+
+- Uma breve documentação com os passos para executar a aplicação deve ser elaborada;[ ] (requisito obrigatório)
+
+- Na documentação deve constar as tecnologias utilizadas;[ ] (requisito obrigatório)
+
+- Qualquer coisa adicionada como extra por parte do desenvolvedor, por exemplo exibir a imagem do pokémon na tela, será contabilizada como ponto extra, desde que os outros requisitos estejam 100% funcionais;[ ] (não é um requisito obrigatório)
+
+- Todo o código deve ser adicionado no em seu Github ou Gitlab pessoal, além da documentação no formato markdown facilmente aceito por essas plataformas.[ ] (requisito obrigatório)
