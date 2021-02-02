@@ -32,4 +32,4 @@
 
 * [ ] Qualquer coisa adicionada como extra por parte do desenvolvedor, por exemplo exibir a imagem do pokémon na tela, será contabilizada como ponto extra, desde que os outros requisitos estejam 100% funcionais; **(não é um requisito obrigatório)**
 
-* [ ] Todo o código deve ser adicionado no em seu Github ou Gitlab pessoal, além da documentação no formato markdown facilmente aceito por essas plataformas. **(requisito obrigatório)**
+* [x] Todo o código deve ser adicionado no em seu Github ou Gitlab pessoal, além da documentação no formato markdown facilmente aceito por essas plataformas. **(requisito obrigatório)**
