@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Pokemon</title>
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" media="screen">
     <link rel="sortcut icon" href="Assets/Images/pokebola.ico" type="image/x-icon" />
-    <script src ='Config/APIWeather.js'></script>
+    <script src='Config/APIWeather.js'></script>
 </head>
+
 <body>
-    <h1>Desafio Pokemon para Desenvolvedores!</h1>
     <script>
-        var nomecidade = window.prompt('Digite o nome da cidade');
-        var e = new peganome(nomecidade);
-        document.write(`<p class="textowrite">O nome da cidade é ${nomecidade}`);
-        document.write(`<p class="textowrite">O nome do teste é: ${e.nc}</p>`)
+        var nc = window.prompt('Digite o nome da cidade');
+        var e = new pegacidade(nc);
     </script>
+    <h1>Desafio Pokemon para Desenvolvedores!</h1>
+    <div class="container">
+        </br><label class="labelcontainer">Nome da cidade:</label>
+        <div class="formcontainer">
+            <script>document.write(`<label class="labelformcontainer">${nc}</label>`);</script>
+        </div></br>
+
+        <label class="labelcontainer">Temperatura:</label>
+
+        <div class="formcontainer">
+            <script>document.write(`<label class="labelformcontainer" id="main">${t}</label>`)</script>
+        </div></br>
+
+        <label class="labelcontainer">Está chovendo:</label>
+        <div class="formcontainer">
+            <script>document.write(`<label class="labelformcontainer" id="weather">${e.c}</label>`);</script>
+        </div>
+    </div>
 </body>
+
 </html>
