@@ -6,11 +6,15 @@
     <title>Desafio Pokemon</title>
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" media="screen">
     <link rel="sortcut icon" href="Assets/Images/pokebola.ico" type="image/x-icon" />
+    <script src ='Config/APIWeather.js'></script>
 </head>
 <body>
+    <h1>Desafio Pokemon para Desenvolvedores!</h1>
     <script>
         var nomecidade = window.prompt('Digite o nome da cidade');
-        document.write(`<p class="textowrite">O nome da cidade é ${nomecidade}`)
+        var e = new peganome(nomecidade);
+        document.write(`<p class="textowrite">O nome da cidade é ${nomecidade}`);
+        document.write(`<p class="textowrite">O nome do teste é: ${e.nc}</p>`)
     </script>
 </body>
 </html>
