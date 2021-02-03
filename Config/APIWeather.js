@@ -13,12 +13,12 @@ class pegacidade {
       .catch(e => console.log('Deu erro: ' + e, message));
   }
 }
-
 function mostrardados(data){
-  t = data;
+  teste = data;
   c = data;
-if (t){
-  t = t.main.temp.toString(); 
+if (teste){
+  teste = teste.main.temp.toString(); 
+  console.log(teste);
 }
 if (c){
   c = c.weather[0];
