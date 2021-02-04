@@ -13,7 +13,7 @@
 <body>
     <script>
         var nc = window.prompt('Digite o nome da cidade');
-        var e = new pegacidade(nc);
+        var e = new PegaCidade(nc);
     </script>
     <h1>Desafio Pokemon para Desenvolvedores!</h1>
     <div class="container">
@@ -25,12 +25,12 @@
         <label class="labelcontainer">Temperatura:</label>
 
         <div class="formcontainer">
-            <script>document.write(`<label class="labelformcontainer" id="main">${e.t}</label>`)</script>
+            <label class="labelformcontainer" id="main"></label>
         </div></br>
 
         <label class="labelcontainer">Está chovendo:</label>
         <div class="formcontainer">
-            <script>document.write(`<label class="labelformcontainer" id="weather">${e.c}</label>`);</script>
+            <label class="labelformcontainer" id="weather"></label>
         </div>
     </div>
 </body>
