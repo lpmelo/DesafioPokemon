@@ -29,3 +29,16 @@ body{
     font: normal 15pt Arial;
     margin-left: 5px;
 }
+.labelcontainerpokemon{
+    color:rgb(230, 116, 116);
+    margin-left: 100px;
+    font: normal 15pt Arial;
+}
+.formcontainerpokemon{
+    width: 200px;
+    height: 30px;
+    border-radius: 5%;
+    margin-left: 135px;
+    margin-top:30px;
+    background-color: rgb(236, 236, 236);
+}

@@ -1,9 +1,8 @@
 class PegaCidade {
   constructor(nomeCidade) {
     this.nomecidade = nomeCidade;
-    var key = "6ce079aa71a79c95ed661ab729f8f323";
-    var urlstr = "https://api.openweathermap.org/data/2.5/weather?q=" + nomeCidade + "&appid=" + key + "&units=metric";
-
+    let key = "6ce079aa71a79c95ed661ab729f8f323";
+    let urlstr = "https://api.openweathermap.org/data/2.5/weather?q=" + nomeCidade + "&appid=" + key + "&units=metric";
 
     fetch(`${urlstr}`, options)
       .then(response => {
