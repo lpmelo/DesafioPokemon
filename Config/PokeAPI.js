@@ -4,7 +4,7 @@ function PegaPokemon() {
     let tipo = "";
     let pokemon = null;
     if (chuva == "Sim") {
-        tipo = "eletric";
+        tipo = "electric";
     } else {
         if (tempPokemon < 5) {
             tipo = "ice";
