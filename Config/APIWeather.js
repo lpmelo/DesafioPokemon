@@ -17,18 +17,16 @@ function mostrarDados(data) {
   let t, weather, main,chuva;
   if (data) {
     t = data.main.temp;
-    console.log(t);
     weather = data.weather;
     weather.map((index) => {
       main = index.main
       if (main == "Rain") {
         chuva = "Sim";
       } else { chuva = "Não"; }
-      console.log(main);
-      console.log(chuva);
     });
-    document.getElementById('main').innerHTML = t;
-    document.getElementById('weather').innerHTML = chuva;
+    document.getElementById('lblTemperatura').innerHTML = t;
+    document.getElementById('lblChuva').innerHTML = chuva;
+    PegaPokemon(); // função PokeAPI
   }
 }
 

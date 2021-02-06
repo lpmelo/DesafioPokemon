@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--Link para fazer a API dos pokemons: https://pokeapi.co/api/v2/type/tipopokemon/-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,13 @@
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" media="screen">
     <link rel="sortcut icon" href="Assets/Images/pokebola.ico" type="image/x-icon" />
     <script src='Config/APIWeather.js'></script>
+    <script src='Config/PokeAPI.js'></script>
 </head>
 
 <body>
     <script>
-        var nc = window.prompt('Digite o nome da cidade');
-        var e = new PegaCidade(nc);
+        let nc = window.prompt('Digite o nome da cidade');
+        let e = new PegaCidade(nc);
     </script>
     <h1>Desafio Pokemon para Desenvolvedores!</h1>
     <div class="container">
@@ -25,12 +26,12 @@
         <label class="labelcontainer">Temperatura:</label>
 
         <div class="formcontainer">
-            <label class="labelformcontainer" id="main"></label>
+            <label class="labelformcontainer" id="lblTemperatura"></label>
         </div></br>
 
         <label class="labelcontainer">Está chovendo:</label>
         <div class="formcontainer">
-            <label class="labelformcontainer" id="weather"></label>
+            <label class="labelformcontainer" id="lblChuva"></label>
         </div>
     </div>
 </body>
