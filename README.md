@@ -1,4 +1,14 @@
 # Desafio Pokémon para Desenvolvedores
+## Tecnologias utilizadas:
+- Visual Studio Code.
+- Linguagens de Desenvolvimento web HTML, CSS, JavaScript. 
+## Passo a passo para utilização:
+- Primeiramente, salve o projeto em seu computador. O próprio github oferece essa ferramenta de download do projeto em formato ZIP, como na imagem:
+
+<p align="center">
+    <img src="assets/images/telaDownload.png" width="250"/>
+</p>
+
 ## O Desafio
 - Em uma página HTML deve ser possível informar uma cidade de qualquer lugar do mundo;
 - De acordo com as condições climáticas desta cidade deve-se exibir um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
