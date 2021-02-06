@@ -6,7 +6,7 @@
 - Primeiramente, salve o projeto em seu computador. O próprio github oferece essa ferramenta de download do projeto em formato ZIP, como na imagem:
 
 <p align="center">
-    <img src="assets/images/telaDownload.png" width="250"/>
+    <img src="Assets/Images/telaDownload.png" width="250">
 </p>
 
 ## O Desafio
