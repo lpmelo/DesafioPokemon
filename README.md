@@ -9,6 +9,21 @@
     <img src="Assets/Images/telaDownload.png" width="500">
 </p>
 
+- Agora que o projeto está salvo, extraia seus dados para alguma pasta, entre na pasta do projeto e abra o arquivo **index** presente na raiz da pasta: 
+<p align="center">
+    <img src="Assets/Images/tela1.png" width="500">
+</p>
+
+- Com o arquivo aberto no seu navegador, digite o nome de qualquer cidade de sua escolha (Funcionará apenas com nomes de cidades válidos existentes): 
+<p align="center">
+    <img src="Assets/Images/tela2.png" width="500">
+</p>
+
+- Após digitar o nome da cidade, essa será a tela que você verá, com todos os dados do desafio presentes: 
+<p align="center">
+    <img src="Assets/Images/tela3.png" width="500">
+</p>
+
 ## O Desafio
 - Em uma página HTML deve ser possível informar uma cidade de qualquer lugar do mundo;
 - De acordo com as condições climáticas desta cidade deve-se exibir um Pokémon baseado em seu tipo (fogo, água, elétrico, etc) seguindo as seguintes regras:
